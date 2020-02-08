@@ -32,4 +32,19 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  
+  
+  new = []
+  src.length.times do |index|
+    if (src[index][0] % 2 == 0 && src[index][1] % 2 == 0) do
+      new.push(src[index][0] + src[index][1])
+    end
+  end
+  new
+  
+  new.length.times do |index|
+    sum = sum + new[index]
+  end
+  
+  sum
 end
