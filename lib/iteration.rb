@@ -19,7 +19,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   new = []
   src.length.times do |index|
-    
+    new.push( src[index][0] > src[index][1] ? src[index][0] : src[index][1] )
   end
   new
 end
