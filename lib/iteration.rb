@@ -42,6 +42,7 @@ def total_even_pairs(src)
   end
   new
   
+  sum = 0
   new.length.times do |index|
     sum = sum + new[index]
   end
