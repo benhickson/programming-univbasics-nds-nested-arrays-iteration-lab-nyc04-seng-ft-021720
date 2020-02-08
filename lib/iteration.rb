@@ -36,7 +36,7 @@ def total_even_pairs(src)
   
   new = []
   src.length.times do |index|
-    if (src[index][0] % 2 == 0 && src[index][1] % 2 == 0) do
+    if (src[index][0] % 2 == 0 && src[index][1] % 2 == 0)
       new.push(src[index][0] + src[index][1])
     end
   end
